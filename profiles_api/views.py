@@ -12,7 +12,7 @@ from .serializers import ProfileSerializer
 class ProfileListAPIView(ListAPIView):
     queryset = UserProfile.objects.all()
     serializer_class = ProfileSerializer
-    filter_backends = (filters.DjangoFilterBackend,)
+    # filter_backends = (filters.DjangoFilterBackend,)
     filter_fields = {
         'login_count': ['gt', 'lte']
     }
