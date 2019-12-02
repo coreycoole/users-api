@@ -1,3 +1,3 @@
-# User Profile REST api
+# User Profile Django REST api
 
-User profiles REST API source code.
+User profiles API source code.
