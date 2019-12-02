@@ -9,6 +9,5 @@ class ProfileView(APIView):
     def get(self, request):
         profiles = UserProfile.objects.all()
         # the many param informs the serializer that it will be serializing more than a single article.
-        serializer = ArticleSerializer(articles, many=True)
+        serializer = ProfileSerializer(articles, many=True)
         return Response({"profile": serializer.data})
-        
