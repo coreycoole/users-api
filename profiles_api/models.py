@@ -6,9 +6,3 @@ class UserProfile(models.Model):
     last_login = models.DateTimeField()
     login_count = models.IntegerField()
     project_count = models.IntegerField()
-
-    # def get_users(self):
-        # return self.id
-
-    # def __str__(self):
-        # return self.id
