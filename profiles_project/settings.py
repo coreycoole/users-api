@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'rest_framework.authtoken',
+    # 'rest_framework.authtoken',
     'profiles_api',
 ]
 
@@ -83,6 +83,9 @@ DATABASES = {
     }
 }
 
+FIXTURE_DIRS = (
+   '/path/to/users-api/fixtures/',
+)
 
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
