@@ -1,0 +1,8 @@
+[
+  {
+    "model" : "profiles_api.UserProfile",
+    "fields" : {"id": 0, "username": "ana",
+      "last_login": "2019-08-20T22:15:09.926Z",
+      "login_count": 0, "project_count": 12 }    
+  }
+]

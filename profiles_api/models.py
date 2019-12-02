@@ -7,8 +7,8 @@ class UserProfile(models.Model):
     login_count = models.IntegerField()
     project_count = models.IntegerField()
 
-    def get_users(self):
-        return self.id
+    # def get_users(self):
+        # return self.id
 
-    def __str__(self):
-        return self.id
+    # def __str__(self):
+        # return self.id
