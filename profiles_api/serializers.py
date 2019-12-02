@@ -1,5 +1,7 @@
 from rest_framework import serializers
 
+# from .models import UserProfile
+
 
 class ProfileSerializer(serializers.Serializer):
     id = serializers.IntegerField()
