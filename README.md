@@ -1,3 +1,3 @@
 # User Profile REST api
 
-User profiles REST API code.
+User profiles REST API source code.
